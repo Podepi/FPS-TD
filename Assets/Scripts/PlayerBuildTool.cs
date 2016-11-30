@@ -20,10 +20,11 @@ public class PlayerBuildTool : MonoBehaviour {
 	void Update () {
 		RaycastHit hit = DoRayCast ();
 
-		buildSelect = (int)mod( (float)buildSelect + (Input.GetAxis ("Mouse ScrollWheel")*10),
+		buildSelect = (int)mod( buildSelect + (int)(Input.GetAxis ("Mouse ScrollWheel")*10),
 			buildList.Length );
+		
 		if (Input.GetAxis ("Mouse ScrollWheel") != 0) {
-			Debug.Log (buildSelect % buildList.Length);
+			Debug.Log (buildSelect);
 			GameObject oldPreview = buildPreview.transform.Find("preview").gameObject;
 			GameObject newPreview = Instantiate (buildList [buildSelect].GetComponent<Building>().preview);
 			newPreview.layer = 2;
@@ -93,7 +94,11 @@ public class PlayerBuildTool : MonoBehaviour {
 		return (snapVec);
 	}
 
-	float mod(float a, float b)
+	int mod(int x, int m) {
+		return (x % m + m) % m;
+	}
+
+	float nfmod(float a, float b)
 	{
 		return a - b * Mathf.Floor(a / b);
 	}
