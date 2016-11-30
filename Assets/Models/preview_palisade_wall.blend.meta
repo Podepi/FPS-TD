@@ -1,24 +1,15 @@
 fileFormatVersion: 2
-guid: bed1a5fd6bd03c44cadd129982dab64f
-timeCreated: 1480470431
+guid: 8906392dd3a7e7343bd406f06d00b9f3
+timeCreated: 1480485867
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Ghost
-    100004: Wall
     400000: //RootNode
-    400002: Ghost
-    400004: Wall
     2300000: //RootNode
-    2300002: Ghost
-    2300004: Wall
     3300000: //RootNode
-    3300002: Ghost
-    3300004: Wall
-    4300000: Wall
-    4300002: Ghost
+    4300000: Ghost
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -46,7 +37,7 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0

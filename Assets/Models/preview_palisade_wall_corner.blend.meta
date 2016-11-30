@@ -1,24 +1,25 @@
 fileFormatVersion: 2
-guid: bed1a5fd6bd03c44cadd129982dab64f
-timeCreated: 1480470431
+guid: b9de11ae8a78cfb4188e89ca97c6444a
+timeCreated: 1480486032
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Ghost
-    100004: Wall
+    100002: Cube
+    100004: Cube_001
     400000: //RootNode
-    400002: Ghost
-    400004: Wall
+    400002: Cube
+    400004: Cube_001
     2300000: //RootNode
-    2300002: Ghost
-    2300004: Wall
+    2300002: Cube
+    2300004: Cube_001
     3300000: //RootNode
-    3300002: Ghost
-    3300004: Wall
+    3300002: Cube
+    3300004: Cube_001
     4300000: Wall
-    4300002: Ghost
+    4300002: Cube_001
+    4300004: Cube
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -46,7 +47,7 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
