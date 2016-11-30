@@ -1,6 +1,7 @@
 /Temp
 /Library
 *.meta
+*.blend1
 /Assets/Animation
 /Assets/Standard Assets/Prototyping
 /Assets/Standard Assets/Utility
@@ -14,3 +15,21 @@
 /Assets/Scenes/Draggable Panel.unity
 /Assets/Standard Assets/PhysicsMaterials
 /Assets/Standard Assets/Characters/ThirdPersonCharacter
+/Assets/Textures and Sprites/Lit UI
+/Assets/Textures and Sprites/Rounded UI
+/Assets/Textures and Sprites/SF UI
+/Assets/Textures and Sprites/Decoration
+/Assets/Resources/Prefabs/SF Grid Button.prefab.meta
+/Assets/Resources/Prefabs/SF Scene Elements.prefab
+/Assets/Resources/Prefabs/SF Scene Elements.prefab.meta
+/Assets/Resources/Prefabs/SF Slider.prefab
+/Assets/Resources/Prefabs/SF Slider.prefab.meta
+/Assets/Resources/Prefabs/SF Title.prefab
+/Assets/Resources/Prefabs/SF Title.prefab.meta
+/Assets/Resources/Prefabs/SF Toggle.prefab
+/Assets/Resources/Prefabs/SF Toggle.prefab.meta
+/Assets/Resources/Prefabs/Slider Lit.prefab
+/Assets/Resources/Prefabs/Slider Lit.prefab.meta
+/Assets/Resources/Prefabs/SF Button.prefab
+/Assets/Resources/Prefabs/SF Button.prefab.meta
+/Assets/Resources/Prefabs/SF Grid Button.prefab
