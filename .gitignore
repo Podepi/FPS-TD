@@ -1,2 +1,16 @@
 /Temp
 /Library
+*.meta
+/Assets/Animation
+/Assets/Standard Assets/Prototyping
+/Assets/Standard Assets/Utility
+/Assets/Scenes/Layout Groups.unity
+/Assets/Scenes/Lighting.unity
+/Assets/Scenes/Menu 3D.unity
+/Assets/Scenes/New Material.mat
+/Assets/Scenes/RenderTexture.unity
+/Assets/Scenes/Controls.unity
+/Assets/Scenes/Drag And Drop.unity
+/Assets/Scenes/Draggable Panel.unity
+/Assets/Standard Assets/PhysicsMaterials
+/Assets/Standard Assets/Characters/ThirdPersonCharacter
