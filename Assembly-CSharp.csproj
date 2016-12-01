@@ -45,18 +45,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HardShellStudios\First Person Controller\Scripts\Player_Look.cs" />
+     <Compile Include="Assets\HardShellStudios\First Person Controller\Scripts\Player_Move.cs" />
+     <Compile Include="Assets\HardShellStudios\Input Manager\Examples\UI_Manager.cs" />
+     <Compile Include="Assets\HardShellStudios\Input Manager\Scripts\hardInput.cs" />
+     <Compile Include="Assets\HardShellStudios\Input Manager\Scripts\hardInputUI.cs" />
+     <Compile Include="Assets\HardShellStudios\Input Manager\Scripts\hardKey.cs" />
+     <Compile Include="Assets\HardShellStudios\Input Manager\Scripts\hardManager.cs" />
      <Compile Include="Assets\Scripts\Building.cs" />
+     <Compile Include="Assets\Scripts\FPSCharacterController.cs" />
      <Compile Include="Assets\Scripts\Grenade.cs" />
+     <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\PlayerBuildTool.cs" />
      <Compile Include="Assets\Scripts\ProjectileWeapon.cs" />
      <Compile Include="Assets\Scripts\WeaponScript.cs" />
      <Compile Include="Assets\Scripts\WeaponSwitch.cs" />
      <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\HardShellStudios\Input Manager\readme.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
-     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
