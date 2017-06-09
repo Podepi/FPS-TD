@@ -11,6 +11,9 @@ public class ProjectileWeapon : WeaponScript {
 	// and position the projectile will be shot from
 	public Transform launcher;
 
+    public AudioSource gunSound;
+    public Animator fireAnim;
+
 	// Force to apply to projectile
 	public float speed = 1.0f;
 
@@ -28,7 +31,12 @@ public class ProjectileWeapon : WeaponScript {
 	public override void Fire () {
 		if (timeToRecharge < 0) {
 			timeToRecharge = rechargeTime;
+
+            gunSound.Play();
+            fireAnim.Play("fire");
+
 			GameObject clone = Instantiate (projectile);
+
 			clone.transform.position = launcher.position;
 			clone.transform.localRotation = launcher.localRotation;
 			clone.GetComponent<Rigidbody> ().AddForce (launcher.forward * speed, ForceMode.VelocityChange);

@@ -1,0 +1,4 @@
+White = FFFFFF
+Yellow = FFFF00
+Orange = FF9900
+Smoke grey = 5A5A5A
